@@ -1,0 +1,74 @@
+body {
+  font-family:verdana,arial;
+  padding:20px;
+}
+.bd {
+  text-align:center;
+}
+.container {
+  margin:0 auto;
+  width:266px;
+}
+.slot-wrapper {
+   border: 1px solid #000000;
+}
+.slot1 {
+  background:url("images/reel1_normal.png") repeat-y;
+  width:86px;
+  height:70px;
+  float:left;
+  border:1px solid #000;
+  background-position:0 4px;
+}
+.slot2 {
+  background:url("images/reel2_normal.png") repeat-y;
+  width:86px;
+  height:70px;
+  float:left;
+  border:1px solid #000;
+  background-position:0 4px;
+}
+.slot3 {
+  background:url("images/reel3_normal.png") repeat-y;
+  width:86px;
+  height:70px;
+  float:left;
+  border:1px solid #000;
+  background-position:0 4px;
+}
+.motion1 {
+  background:url("images/reel1_blur.png") repeat-y;
+}
+.motion2 {
+  background:url("images/reel2_blur.png") repeat-y;
+}
+.motion3 {
+  background:url("images/reel3_blur.png") repeat-y; 
+}
+button {
+  display:block;
+  width:138px;
+  height:33px;
+  margin:20px 60px;
+  font-size:16px;
+  cursor:pointer;
+}
+#result {
+  margin:20px 0;
+  font-size:18px;
+  font-weight:bold;
+  height:22px;
+}
+.credits {
+  font-size:15px;
+  margin-top:20px;
+}
+.credits .browsers {
+  font-style:italic;
+  font-size:14px;
+  color:#777;
+  margin-top:4px;
+}
+.clear {
+  clear:both;
+}

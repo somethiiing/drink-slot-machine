@@ -1,19 +1,33 @@
-<!doctype html>
+<!DOCTYPE HTML>
 <html>
-  <head>
-    <title>Slot Machines</title>
-    <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.5.6/angular.min.js"></script>
-    <script src="app.js"></script>
-  </head>
-  <body ng-app="app" ng-controller="slotsCtrl">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<title>Drink Slot Machine</title>
+<link rel="stylesheet" type="text/css" href="styling.css">
+<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.6.1/jquery.min.js"></script>
+<script src="jquery.spritely.js"></script>
+<script src="jquery.backgroundPosition.js"></script>
+<script src="app.js"></script>
+</head>
 
-    <div> {{ slot1 }} </div>
-    <div> {{ slot2 }} </div>
-    <div> {{ slot3 }} </div>
-
-    <input type="button" ng-click="spin()" value="Spin!" />
-
-
-
-  </body>
+<body>
+<div class="hd">
+</div>
+<div class="bd">
+  <h1>Drink Slot Machine</h1>
+  <div class="container">
+    <div class="slot-wrapper">
+      <div id="slot1" class="slot1"></div>
+      <div id="slot2" class="slot2"></div>
+      <div id="slot3" class="slot3"></div>
+      <div class="clear"></div>
+    </div>
+    <div id="result"></div>
+    <br>
+    <br>
+    <br>
+    <div><button id="control">Spin</button></div>
+  </div>
+</div>
+</body>
 </html>
