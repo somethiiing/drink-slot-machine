@@ -59,16 +59,6 @@ button {
   font-weight:bold;
   height:22px;
 }
-.credits {
-  font-size:15px;
-  margin-top:20px;
-}
-.credits .browsers {
-  font-style:italic;
-  font-size:14px;
-  color:#777;
-  margin-top:4px;
-}
 .clear {
   clear:both;
 }
